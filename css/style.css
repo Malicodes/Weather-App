@@ -1,0 +1,161 @@
+body{
+    background-color: var(--Header_color);
+}
+
+/* Main Colors */
+:root{
+    --Header_color: #1e202b;
+    --MainCardColor: #323544;
+    --SecondCardColor: #262936;
+
+
+}
+
+.navbar
+{
+    background-color: var(--Header_color)
+}
+
+.nav-logo a{
+    color: white;
+}
+
+
+.nav-link{
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 5px 20px;
+    
+}
+.nav-link:hover{
+    color: #009ad8;
+    border-color: #009ad8;
+    transition: 0.3s ease;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #009ad8;
+    border: 2px solid ;
+    border-radius: 30px;
+    border-color: #009ad8;
+    padding: 5px 20px;
+}
+
+
+/* ----------------------------- Start Search Bar ------------------------ */
+
+.location .form-control{
+    padding: 1.2rem 1.2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #1e202b;
+    color: white;
+}
+.location .form-control::placeholder{
+    color: gray;
+}
+.location .form-control:focus{
+    box-shadow: none;
+}
+.search .btn-primary{
+    border-radius: 30px;
+    padding: 0.8rem 1.8rem;
+    background-color: #009ad8;
+    position: absolute;
+    top: 2%;
+    left: 92%;
+    
+}
+.container-fluid{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.today{
+    background-color: var(--MainCardColor) ;
+    color: white;
+}
+.today h3{
+    margin-block: 30px;
+    font-size: 6rem;
+    text-align: start;
+}
+.today p {
+    color: #009ad8 ;
+}
+.main_style{
+    color: white;
+    background-color:var(--MainCardColor) ;
+}
+
+#thirdDay .forecast-content p {
+    color: #009ad8 ;
+}
+
+#forcast{
+    background-color:#1b1c24;
+    color: #bfc1c8;
+}
+#forcast .forecast-content p{
+    color: #009ad8 ;
+}
+
+#footer{
+    background-color:#262936 ;
+}
+
+#footer .form-control{
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #1e202b;
+    color: white;
+}
+
+
+/* ----------------------------- Start Footer section ------------------------ */
+
+
+#footer .form-control::placeholder{
+    color: #bfc1c8;
+    
+}
+
+#footer .form-control{
+    padding: 1.2rem 1.2rem;
+    
+}
+#footer.form-control:focus{
+    box-shadow: none;
+}
+
+
+#footer .btn-primary{
+    border-radius: 30px;
+    padding: 0.8rem 1.8rem;
+    background-color: #009ad8;
+    position: absolute;
+    top: 2%;
+    left: 83%;
+    
+}
+#footer p{
+    color: #bfc1c8;
+    padding-left: 15px;
+}
+.icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color:#1b1c24;
+    color: #009ad8;
+
+}
+.icon:hover{
+    background-color:#009ad8 ;
+    color: #fff;
+    transition: 1s all;
+}
